@@ -1,6 +1,6 @@
 const {Server, Socket} = require("socket.io");
 
-const io = new Server({cors:"http://localhost:3000"});
+const io = new Server({cors:"https://my-yanafrontend1.onrender.com"});
 
 let onlineUsers = [];
 
